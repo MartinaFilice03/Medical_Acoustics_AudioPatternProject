@@ -4,6 +4,15 @@ This project implements a comprehensive machine learning and data mining pipelin
 
 ***
 
+## Dataset Structure
+
+As a dataset, I utilized the **HLS-CMDS** repository (Heart and Lung Sounds Dataset Recorded from a Clinical Manikin using Digital Stethoscope), which contains uncompressed `.wav` audio recordings sampled at high acoustic fidelity and detailed clinical metadata. Specifically, the CSV files and audio folders saved within the project directory consist of:
+* **`Mix.csv`** and the **`Mix`** folder: contain records and uncompressed audio tracks representing combined cardiopulmonary auscultation mixtures.
+* **`HS.csv`** and the **`HS`** folder: contain records and audio tracks isolating pure cardiac cycles.
+* **`LS.csv`** and the **`LS`** folder: contain records and audio tracks isolating pulmonary respiratory phases.
+
+***
+
 ## Project Features
 
 The pipeline is structured into the following stages:
