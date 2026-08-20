@@ -13,6 +13,15 @@ As a dataset, I utilized the **HLS-CMDS** repository (Heart and Lung Sounds Data
 
 ***
 
+## Project Structure
+
+```text
+├── Medical_Acoustics.ipynb   # Interactive Jupyter Notebook containing the full pipeline
+├── medical_acoustics.py      # Python script version of the computational pipeline
+└── README.md                 # Project documentation
+
+***
+
 ## Project Features
 
 The pipeline is structured into the following stages:
